@@ -10,5 +10,9 @@ RSpec.describe"cambiar monedas" do
         expect(calcularCambio(5)).to eq ["2","2","1"]
     end
 
+    it "deberia devolver 2 monedas de 5 bs para 10 bolivianos" do
+        expect(calcularCambio(10)).to eq ["5","5"]
+    end
+
     
 end

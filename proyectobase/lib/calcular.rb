@@ -8,7 +8,11 @@ def calcularCambio(saldo)
     if(saldo==5)
         array=["2","2","1"]
         return array
+    end
 
+    if(saldo==10)
+        array=["5","5"]
+        return array
     end
 
 end
